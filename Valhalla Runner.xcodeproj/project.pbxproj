@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2321F96126EFFC2600484ABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321F96026EFFC2600484ABC /* AppDelegate.swift */; };
+		2321F96326EFFC2600484ABC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2321F96226EFFC2600484ABC /* GameScene.sks */; };
+		2321F96726EFFC2600484ABC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321F96626EFFC2600484ABC /* GameScene.swift */; };
+		2321F96926EFFC2600484ABC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321F96826EFFC2600484ABC /* GameViewController.swift */; };
+		2321F96C26EFFC2600484ABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2321F96A26EFFC2600484ABC /* Main.storyboard */; };
+		2336B1A626FA945300A3BD8C /* Pixel.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2336B1A526FA942800A3BD8C /* Pixel.ttf */; };
+		2336B1A926FA960300A3BD8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2336B1A826FA960200A3BD8C /* Assets.xcassets */; };
+		23388F9526F7E44100712DE3 /* GameScene_Touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23388F9426F7E44100712DE3 /* GameScene_Touches.swift */; };
+		23388F9926F7F06300712DE3 /* GameScene_Physics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23388F9826F7F06300712DE3 /* GameScene_Physics.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2321F95D26EFFC2500484ABC /* Valhalla Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Valhalla Runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2321F96026EFFC2600484ABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2321F96226EFFC2600484ABC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		2321F96626EFFC2600484ABC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		2321F96826EFFC2600484ABC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2321F96B26EFFC2600484ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2321F96F26EFFC4100484ABC /* Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Info.plist; sourceTree = "<group>"; };
+		2336B1A526FA942800A3BD8C /* Pixel.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pixel.ttf; sourceTree = "<group>"; };
+		2336B1A826FA960200A3BD8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23388F9426F7E44100712DE3 /* GameScene_Touches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene_Touches.swift; sourceTree = "<group>"; };
+		23388F9826F7F06300712DE3 /* GameScene_Physics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene_Physics.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2321F95A26EFFC2500484ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2321F95426EFFC2500484ABC = {
+			isa = PBXGroup;
+			children = (
+				2336B1A726FA957700A3BD8C /* Fonts */,
+				2321F95F26EFFC2500484ABC /* Valhalla Runner */,
+				2321F95E26EFFC2500484ABC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2321F95E26EFFC2500484ABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2321F95D26EFFC2500484ABC /* Valhalla Runner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2321F95F26EFFC2500484ABC /* Valhalla Runner */ = {
+			isa = PBXGroup;
+			children = (
+				2321F96026EFFC2600484ABC /* AppDelegate.swift */,
+				2321F96226EFFC2600484ABC /* GameScene.sks */,
+				2321F96626EFFC2600484ABC /* GameScene.swift */,
+				23388F9826F7F06300712DE3 /* GameScene_Physics.swift */,
+				23388F9426F7E44100712DE3 /* GameScene_Touches.swift */,
+				2321F96826EFFC2600484ABC /* GameViewController.swift */,
+				2321F96A26EFFC2600484ABC /* Main.storyboard */,
+				2321F96F26EFFC4100484ABC /* Info.plist */,
+				2336B1A826FA960200A3BD8C /* Assets.xcassets */,
+			);
+			path = "Valhalla Runner";
+			sourceTree = "<group>";
+		};
+		2336B1A726FA957700A3BD8C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2336B1A526FA942800A3BD8C /* Pixel.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2321F95C26EFFC2500484ABC /* Valhalla Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2321F97226EFFC4100484ABC /* Build configuration list for PBXNativeTarget "Valhalla Runner" */;
+			buildPhases = (
+				2321F95926EFFC2500484ABC /* Sources */,
+				2321F95A26EFFC2500484ABC /* Frameworks */,
+				2321F95B26EFFC2500484ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Valhalla Runner";
+			productName = "Valhalla Runner";
+			productReference = 2321F95D26EFFC2500484ABC /* Valhalla Runner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2321F95526EFFC2500484ABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2321F95C26EFFC2500484ABC = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 2321F95826EFFC2500484ABC /* Build configuration list for PBXProject "Valhalla Runner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2321F95426EFFC2500484ABC;
+			productRefGroup = 2321F95E26EFFC2500484ABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2321F95C26EFFC2500484ABC /* Valhalla Runner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2321F95B26EFFC2500484ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2336B1A626FA945300A3BD8C /* Pixel.ttf in Resources */,
+				2321F96C26EFFC2600484ABC /* Main.storyboard in Resources */,
+				2336B1A926FA960300A3BD8C /* Assets.xcassets in Resources */,
+				2321F96326EFFC2600484ABC /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2321F95926EFFC2500484ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23388F9526F7E44100712DE3 /* GameScene_Touches.swift in Sources */,
+				23388F9926F7F06300712DE3 /* GameScene_Physics.swift in Sources */,
+				2321F96726EFFC2600484ABC /* GameScene.swift in Sources */,
+				2321F96926EFFC2600484ABC /* GameViewController.swift in Sources */,
+				2321F96126EFFC2600484ABC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2321F96A26EFFC2600484ABC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2321F96B26EFFC2600484ABC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2321F97026EFFC4100484ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2321F97126EFFC4100484ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2321F97326EFFC4100484ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZ3YJ33659;
+				INFOPLIST_FILE = "Valhalla Runner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shandir.Valhalla-Runner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2321F97426EFFC4100484ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZ3YJ33659;
+				INFOPLIST_FILE = "Valhalla Runner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shandir.Valhalla-Runner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2321F95826EFFC2500484ABC /* Build configuration list for PBXProject "Valhalla Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2321F97026EFFC4100484ABC /* Debug */,
+				2321F97126EFFC4100484ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2321F97226EFFC4100484ABC /* Build configuration list for PBXNativeTarget "Valhalla Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2321F97326EFFC4100484ABC /* Debug */,
+				2321F97426EFFC4100484ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2321F95526EFFC2500484ABC /* Project object */;
+}
